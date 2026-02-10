@@ -3025,7 +3025,7 @@ function dashPage(host, uuid, proxyip, subpass, subdomain, converter, env, clien
             search.set('sni', host);
             search.set('alpn', 'h3');
             search.set('fp', 'random');
-            search.set('allowInsecure', '0');
+            search.set('allowInsecure', '1');
             search.set('type', 'ws');
             search.set('host', host);
             search.set('path', path);
